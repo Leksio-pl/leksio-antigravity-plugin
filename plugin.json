@@ -1,0 +1,22 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "leksio",
+  "displayName": "Leksio",
+  "description": "Research prawa polskiego w bazie SIP Leksio: akty prawne, orzeczenia, interpretacje podatkowe i ZUS oraz brzmienie przepisu na dzień, ze źródłami.",
+  "version": "1.0.0",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Jakie było brzmienie art. 15 ust. 1 ustawy o CIT na 1 stycznia 2024 r.?",
+    "Czy kary umowne zapłacone kontrahentowi są kosztem uzyskania przychodu w CIT?",
+    "Sprawdź sygnatury i przepisy cytowane w tym fragmencie opinii."
+  ],
+  "author": {
+    "name": "Leksio sp. z o.o.",
+    "email": "kontakt@leksio.pl",
+    "url": "https://leksio.pl"
+  },
+  "homepage": "https://leksio.pl/mcp",
+  "repository": "https://github.com/Leksio-pl/leksio-antigravity-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["prawo", "polish-law", "legal-research", "podatki", "orzeczenia", "mcp"]
+}

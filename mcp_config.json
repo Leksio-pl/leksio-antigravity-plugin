@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sip": {
+      "serverUrl": "https://mcp.leksio.pl/sip"
+    }
+  }
+}
