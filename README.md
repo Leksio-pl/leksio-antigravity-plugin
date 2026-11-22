@@ -58,9 +58,10 @@ nie porada prawna. Szczegóły: [pomoc](https://leksio.pl/pomoc?temat=leksio-mcp
 
 ## Licencja
 
-Pliki wtyczki są dostępne na licencji Apache 2.0 (`LICENSE`). Licencja nie obejmuje usługi Leksio,
-bazy SIP Leksio, serwera MCP ani nazwy i logo Leksio (`NOTICE`). Google i Antigravity to znaki towarowe
-Google LLC; nazwy występują wyłącznie jako opis zgodności.
+Pliki wtyczki, z wyjątkiem logo (`assets/logo.png`), są dostępne na licencji Apache 2.0 (`LICENSE`).
+Logo Leksio nie jest objęte tą licencją; Leksio sp. z o.o. zastrzega do niego wszelkie prawa. Licencja
+nie obejmuje też usługi Leksio, bazy SIP Leksio, serwera MCP ani nazwy Leksio (`NOTICE`). Google
+i Antigravity to znaki towarowe Google LLC; nazwy występują wyłącznie jako opis zgodności.
 
 ---
 
@@ -85,8 +86,9 @@ SIP Pro 50, SIP Pro+ 150; each research includes up to 50 tool calls. Leksio doe
 of your questions; the rules keep personal and counterparty data out of tool calls. Results are not
 legal advice.
 
-The plugin files are licensed under Apache 2.0 (`LICENSE`); the Leksio service, database, MCP server,
-name and logo are not (`NOTICE`). Google and Antigravity are trademarks of Google LLC, used only to
-describe compatibility.
+The plugin files, except the logo (`assets/logo.png`), are licensed under Apache 2.0 (`LICENSE`).
+The Leksio logo is not covered by that licence; all rights in it are reserved by Leksio sp. z o.o.
+The Leksio service, database, MCP server and name are not covered either (`NOTICE`). Google and
+Antigravity are trademarks of Google LLC, used only to describe compatibility.
 
 Operated by Leksio sp. z o.o. Support: https://leksio.pl/pomoc?temat=leksio-mcp

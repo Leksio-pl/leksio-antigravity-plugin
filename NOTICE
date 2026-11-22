@@ -1,8 +1,12 @@
 Leksio plugin for Antigravity
 Copyright 2026 Leksio sp. z o.o.
 
-The Apache License 2.0 in LICENSE covers only the files in this repository: the plugin manifest,
-the MCP configuration, the rules, the skills and the documentation.
+The Apache License 2.0 in LICENSE covers only the plugin manifest, the MCP configuration, the rules,
+the skills and the documentation in this repository. It does not cover assets/logo.png.
+
+assets/logo.png is the Leksio logo. All copyright and trademark rights in it are reserved by
+Leksio sp. z o.o. It is included only so that Antigravity can display it with this plugin. Any other
+use, copying or modification requires the prior written consent of Leksio sp. z o.o.
 
 It grants no rights to the Leksio service, the SIP Leksio database, the server at
 https://mcp.leksio.pl or any of its software, data or methods. It grants no rights to the Leksio
@@ -12,7 +16,12 @@ Leksio MCP Rules: https://leksio.pl/zasady/leksio-mcp
 Google and Antigravity are trademarks of Google LLC. They appear here only to describe compatibility.
 This plugin is not made, endorsed or reviewed by Google.
 
-Licencja Apache 2.0 obejmuje wyłącznie pliki tego repozytorium. Nie daje praw do usługi Leksio,
-bazy SIP Leksio, serwera https://mcp.leksio.pl ani jego oprogramowania, danych i metod, ani do
-nazwy i logo Leksio. Korzystanie z połączenia regulują Zasady Leksio MCP. Google i Antigravity to
+Licencja Apache 2.0 obejmuje wyłącznie manifest wtyczki, konfigurację MCP, zasady, umiejętności
+i dokumentację w tym repozytorium. Nie obejmuje pliku assets/logo.png. Plik assets/logo.png to logo
+Leksio. Leksio sp. z o.o. zastrzega do niego wszelkie prawa autorskie i prawa do oznaczenia. Logo jest
+dołączone wyłącznie po to, by Antigravity mogło je wyświetlić przy tej wtyczce. Inne korzystanie,
+kopiowanie lub zmiana wymagają uprzedniej pisemnej zgody Leksio sp. z o.o.
+
+Licencja nie daje praw do usługi Leksio, bazy SIP Leksio, serwera https://mcp.leksio.pl ani jego
+oprogramowania, danych i metod, ani do nazwy i logo Leksio. Korzystanie z połączenia regulują Zasady Leksio MCP. Google i Antigravity to
 znaki towarowe Google LLC, użyte wyłącznie jako opis zgodności.
