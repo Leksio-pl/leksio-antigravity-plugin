@@ -47,6 +47,32 @@ przy pierwszym użyciu każdego narzędzia Leksio; możesz zezwolić na nie w ca
 Odłączenie: usunięcie wtyczki kasuje ją z tego komputera, a panel Leksio MCP w koncie SIP Leksio
 (https://sip.leksio.pl/konto/mcp) cofa dostęp dla wszystkich urządzeń.
 
+## Narzędzia
+
+Wszystkie narzędzia tylko odczytują dane.
+
+- `start_research`: otwiera research dla zadania i zwraca jego identyfikator.
+- `search_legal`: wyszukuje akty prawne, orzeczenia, interpretacje i dokumenty organów, z filtrami.
+- `lookup_citation`: znajduje dokument po oznaczeniu (sygnatura, „art. 15 ust. 1 CIT”, Dz.U., numer
+  interpretacji).
+- `get_document_outline`: metryka i spis treści dokumentu.
+- `read_document_text`: czyta tekst dokumentu stronami, z adresem na sip.leksio.pl.
+- `get_act_wording`: brzmienie przepisu ustawy na wskazany dzień.
+- `get_provision_materials`: orzeczenia i interpretacje powołujące dany przepis.
+- `get_related_documents`: dokumenty powiązane, np. akty zmieniające albo uzasadnienie wyroku.
+- `get_account_status`: plan konta, zużycie researchy i termin odnowienia; nie zużywa researchu.
+
+## Przykłady
+
+1. **Przepis na dzień.** „Jakie było brzmienie art. 15 ust. 1 ustawy o CIT na 1 stycznia 2024 r.?”
+   Agent znajduje przepis i podaje jego brzmienie z okresem obowiązywania. To samo uruchamia
+   `/przepis-na-dzien`.
+2. **Research podatkowy.** „Czy kary umowne zapłacone kontrahentowi za opóźnienie są kosztem uzyskania
+   przychodu w CIT?” Agent otwiera research, szuka orzeczeń i interpretacji, czyta sentencje
+   i uzasadnienia, a potem odpowiada z sygnaturami i linkami do SIP. Skrót: `/research-podatkowy`.
+3. **Sprawdzenie cytatów.** Wklej fragment opinii i wpisz `/sprawdz-cytaty`. Agent sprawdza każdą
+   sygnaturę i przepis, a potem zwraca tabelę z wynikiem: potwierdzone, brak w SIP albo rozbieżne.
+
 ## Prywatność i zakres
 
 Leksio nie zapisuje treści pytań. Przechowuje dostawcę, znaczniki czasu, liczniki operacji
@@ -85,6 +111,18 @@ account and acceptance of the Leksio MCP Rules are required. Monthly research al
 SIP Pro 50, SIP Pro+ 150; each research includes up to 50 tool calls. Leksio does not store the content
 of your questions; the rules keep personal and counterparty data out of tool calls. Results are not
 legal advice.
+
+Tools (all read-only): `start_research` opens a research task; `search_legal` searches acts, judgments,
+rulings and regulator documents with filters; `lookup_citation` resolves a case number, provision or
+Dz.U. reference; `get_document_outline` returns metadata and the table of contents; `read_document_text`
+reads a document page by page with its sip.leksio.pl link; `get_act_wording` returns the wording of a
+statutory provision on a given date; `get_provision_materials` lists judgments and rulings citing a
+provision; `get_related_documents` finds related documents such as amending acts; `get_account_status`
+shows the plan, research usage and renewal date without using a research task.
+
+Examples: ask for the wording of a provision on a date (`/przepis-na-dzien`), run tax research with case
+law and rulings cited by number and link (`/research-podatkowy`), or paste a passage of an opinion and
+run `/sprawdz-cytaty` to get a table of confirmed, missing and inconsistent citations.
 
 The plugin files, except the logo (`assets/logo.png`), are licensed under Apache 2.0 (`LICENSE`).
 The Leksio logo is not covered by that licence; all rights in it are reserved by Leksio sp. z o.o.

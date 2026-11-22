@@ -3,7 +3,7 @@
   "name": "leksio",
   "displayName": "Leksio",
   "description": "Research prawa polskiego w bazie SIP Leksio: akty prawne, orzeczenia, interpretacje podatkowe i ZUS oraz brzmienie przepisu na dzień, ze źródłami.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "logo": "assets/logo.png",
   "suggestedPrompts": [
     "Jakie było brzmienie art. 15 ust. 1 ustawy o CIT na 1 stycznia 2024 r.?",
@@ -15,8 +15,15 @@
     "email": "kontakt@leksio.pl",
     "url": "https://leksio.pl"
   },
-  "homepage": "https://leksio.pl/mcp",
+  "homepage": "https://leksio.pl/pomoc?temat=leksio-mcp",
   "repository": "https://github.com/Leksio-pl/leksio-antigravity-plugin",
   "license": "Apache-2.0",
-  "keywords": ["prawo", "polish-law", "legal-research", "podatki", "orzeczenia", "mcp"]
+  "keywords": [
+    "prawo",
+    "polish-law",
+    "legal-research",
+    "podatki",
+    "orzeczenia",
+    "mcp"
+  ]
 }
